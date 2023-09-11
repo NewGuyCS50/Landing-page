@@ -1,5 +1,10 @@
+body {
+    margin: 0;
+}
+
 .container {
-    background-color: #1f2937; ;
+    background-color: #1f2937;
+    height: 83vh;
 }
 
 .logo {
@@ -8,9 +13,6 @@
     color:#F9FaF8 ;
 }
 
-img {
-    width: 150px;
-}
 
 a {
     color: white;
@@ -39,6 +41,47 @@ button {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    }
+
+    /*For the width*/
+ /*middle container was 400px when it was the same as in the project */
+.middle-container {
+    width: 400px;
+}    
+
+img {
+    width: 450px;
     
+}
+/*Below is Flexbox only           FLEXBOX FLEXBOX FLEXBOX FLEXBOX FLEXBOX FLEXBOX*/
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:100px ;
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.big-middle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    
+}
+/*Responsible for the total vertical alignment*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;/*previously spacebetween*/
+}
+
+.big-middle {
+    gap: 50px;
 }
 
