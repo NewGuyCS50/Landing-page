@@ -41,6 +41,7 @@ button {
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    cursor: pointer;
     }
 
     /*For the width*/
@@ -192,6 +193,7 @@ strong {
 }
 .fourth-sub button {
     border: 2px white solid;
+    
 }
 
 .fourth-action {
