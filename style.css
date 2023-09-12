@@ -214,3 +214,23 @@ strong {
     align-items: center;
 }
 
+/*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    height: 16vh;
+}
+
+.footer div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/*Flexbox*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
