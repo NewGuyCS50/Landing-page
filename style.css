@@ -85,3 +85,58 @@ img {
     gap: 50px;
 }
 
+/*NoW FOR THE SECOND SECTION SECOND SECTION SECOND SECTION SECOND SECTION SECOND SECTION SECOND*/
+
+.second {
+    height: 78vh;
+}
+
+.second img {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 8px;
+    
+}
+
+strong {
+    color: #1f2937;
+    font-weight:900;
+    font-size: 38px;
+}
+
+.text-second {
+    margin-bottom: 50px;
+
+}
+
+.second-images {
+    margin-bottom: 150px;
+}
+
+/*For changin the text below the images*/
+
+.second-image div {
+    color: grey;
+}
+
+
+/*NOW FOR FLEXBOX FLEXBOX FLEXBOX */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.second-images {
+    display: flex;
+    gap: 40px;
+}
+
+.second-image {
+    width: 150px;
+    height:150px;
+}
